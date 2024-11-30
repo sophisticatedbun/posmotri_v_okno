@@ -208,7 +208,7 @@ ol {
 }
 
 .content__details {
-  min-width: 407px;
+  width: 407px;
   height: 100%;
 }
 
@@ -231,9 +231,8 @@ ol {
   position: relative;
   overflow: auto;
   height: 298px;
-  padding-top: 4px;
+  width: 407px;
   padding-left: 4px;
-  padding-right: 4px;
 }
 
 .content__list-item:not(:last-child) {
@@ -271,7 +270,7 @@ ol {
 
 .content__video-card {
   display: grid;
-  grid-template-columns: 200px 199px;
+  grid-template-columns: 191px 199px;
 }
 
 .content__video-card-description-container {
@@ -310,7 +309,6 @@ ol {
   object-fit: cover;
   object-position: center;
   margin-top: 2px;
-  margin-left: 3px;
 }
 
 .more-button {
